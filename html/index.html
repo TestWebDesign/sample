@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Page </title>
+  <link rel="icon" type="image/png" href="firstpagelogo2.png"/>
+</head>
+<body>
+  <header>
+    <h1 id="top"> My First Page </h1>
+    <p> This is the first web page I have ever created. </p>
+    <nav>
+      <ul>
+        <li> <a href="#top"> Introduction </a> </li>
+        <li> <a href="#main"> Main Information </a> </li>
+        <li> <a href="#music"> Music </a> </li>
+        <li> <a href="#video1"> First Video </a> </li>
+        <li> <a href="#video2"> Second Video </a> </li>
+        <li> <a href="#table"> Table </a> </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="main">
+      <h3> Main Information: </h3>
+      <p> This is the product of me taking a short Coursera course on HTML and learning
+          how to code a very basic website, with no special formatting.
+          Just a simple, ugly website.
+      </p>
+    </section>
+    <section>
+      <h5> Related Logos: </h5>
+      <img src="html5.png" width="15%" alt="HTML5 Logo">
+      <img src="Coursera.png"  width="15%" alt="Coursera Logo">
+      <img src="coding.png"  width="15%" alt="Coding Logo">
+    </section>
+    <section id="music">
+      <h3> Some Music to listen to: </h3>
+      <figure>
+        <audio controls>
+          <source src="Music.mp3" type ="audio/webm">
+          Your browser does not support the audio element.
+        </audio>
+        <figcaption>Bohemian Rhapsody by Queen </figcaption>
+      </figure>
+    </section>
+    <section id="video1">
+      <h3> And here is the music video: </h3>
+      <figure>
+        <iframe width="300"
+          src="https://www.youtube.com/embed/fJ9rUzIMcZQ">
+        </iframe>
+        <figcaption>Queen - Bohemian Rhapsody (Official Video Remastered) </figcaption>
+      </figure>
+      <h3 id="video2"> Here is a different one: </h3>
+      <figure>
+        <iframe width="300"
+          src="https://www.youtube.com/embed/yEBBwPKSnvU">
+        </iframe>
+        <figcaption> [Official Video] Bohemian Rhapsody - Peter Hollens - (Queen) </figcaption>
+      </figure>
+    </section>
+    <section id="table">
+      <h3> My Coding </h3>
+      <details>
+        <summary> Coding Goals and Projects</summary>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Goal </th>
+              <th scope="col">Language </th>
+              <th scope="col">Achieved? </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> HTML Coursera </td>
+              <td> HTML </td>
+              <td> In Progress </td>
+            </tr>
+            <tr>
+              <td> School Gamesim </td>
+              <td> Java </td>
+              <td> Complete (for now) </td>
+            </tr>
+            <tr>
+              <td> School Crab sim </td>
+              <td> Java </td>
+              <td> Not Started </td>
+            </tr>
+            <tr>
+              <td> Python Coursera </td>
+              <td> Python </td>
+              <td> In Progress </td>
+            </tr>
+            <tr>
+              <td> Spotify Playlists </td>
+              <td> Python </td>
+              <td> Not Started </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr> <td> Total: </td> <td> </td> <td> 2/5 </td> </tr>
+          </tfoot>
+        </table>
+      </details>
+    </section>
+  </main>
+  <footer>
+      <a href="#top"> Introduction </a>
+      <a href="#main"> Main Information </a>
+      <a href="#music"> Music </a>
+      <a href="#video1"> Video </a>
+      <a href="#table"> Table </a>
+  </footer>
+</body>
+</html>
